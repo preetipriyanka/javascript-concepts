@@ -11,8 +11,8 @@ Array.prototype.myReduce = function(callback, accumulator) {
         }
     }
 
-    for(let index=0; index < this.length; index++) {
-        accumulator = callback(accumulator, this[index]);
+    for(let i=0; i < this.length; i++) {
+        accumulator = callback(accumulator, this[i]);
     }
     return accumulator;
 }
