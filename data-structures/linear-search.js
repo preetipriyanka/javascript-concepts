@@ -1,4 +1,4 @@
-function search(arr, n, x) {
+const search = (arr, n, x) => {
   let i;
   for (i = 0; i < n; i++) if (arr[i] == x) return i;
   return -1;
