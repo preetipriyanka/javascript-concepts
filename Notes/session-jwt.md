@@ -1,5 +1,7 @@
 # Session vs Json Web Tokens
+
 ## Key Points:
+
 - What is Session?
 - What is Json Web Token?
 - When do you use one over the other?
