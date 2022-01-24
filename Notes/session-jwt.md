@@ -16,4 +16,4 @@ I find a good rule of thumb for Jwt is to only include the user id but never act
 
 Use the id to grab the data from the database when the request comes to the system.
 
-JWT also puts the client in a position where it needs to include the token.
+JWT also puts the client in a position where it needs to include the token in every request to the system while a session handles everything on the server.
