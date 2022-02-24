@@ -1,7 +1,7 @@
 function sumArray(arr) {
-    var sum=0;
-    for(var i =0; i<arr.length; i++) {
-        if (typeof arr[i] == "number") {
+    let sum =0;
+    for(let i =0; i< arr.length; i++) {
+        if(typeof arr[i] == "number") {
             sum += arr[i];
         } else if(arr[i] instanceof Array) {
             sum += sumArray(arr[i]);
