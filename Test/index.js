@@ -1,23 +1,13 @@
-for (var i = 0; i < 5; i++) {
-    var btn = document.createElement('button');
-    btn.appendChild(document.createTextNode('Button ' + i));
-    btn.addEventListener('click', function(){ console.log(i); });
-    document.body.appendChild(btn);
-}
+const students = [
+    { name: 'Quincy', grade: 96 },
+    { name: 'Jason', grade: 84 },
+    { name: 'Alexis', grade: 100 },
+    { name: 'Sam', grade: 65 },
+    { name: 'Katie', grade: 90 }
+  ];
 
-// // if(!Math.trunc) {
-// //     Math.trunc = function(number) {
-// //         return number < 0? Math.ceil(number): Math.floor(number);
-// //     }
-// // }
 
-// // let y = {}
+const func = (e) =>{e.grade > 90};
 
-// // let obj = {
+console.log(students.filter(func));
 
-// // }
-// // let x = y.x.bind(obj)
-
-// const a = () => {
-//     const [data, setData] = React.useState("")
-// }
