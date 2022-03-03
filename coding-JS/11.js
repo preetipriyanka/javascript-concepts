@@ -1,5 +1,3 @@
-
-
 class Square {
     constructor(length) {
         this.length = length;
